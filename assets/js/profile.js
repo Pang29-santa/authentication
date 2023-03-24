@@ -10,8 +10,8 @@ if (!user) {
 const signOut = document.querySelector('#sign-out')
 
 signOut.addEventListener('click', () => {
-  localStorage.removeItem()
-  window.location.href = 'login.html'
+  clearLocalStorage()
+  window.location.href = 'singin.html'
 })
 
 const clearLocalStorage = () => {
